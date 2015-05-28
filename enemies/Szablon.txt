@@ -1,0 +1,7 @@
+nazwa
+hp
+mana
+atak
+def
+exp
+speed // ile klatek na ture

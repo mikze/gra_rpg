@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1430341597 source:d:\c++\projekt\rpg\main.cpp
+	<iostream>
+	"Gra.h"
+
+1430341329 d:\c++\projekt\rpg\gracz.h
+	"Jednostka.h"
+	"Item.h"
+
+1430254380 d:\c++\projekt\rpg\jednostka.h
+	"Lokalizacja.h"
+	"Inventory.h"
+	<string>
+
+1430340908 d:\c++\projekt\rpg\lokalizacja.h
+	<string>
+	"Map.h"
+
+1430254380 d:\c++\projekt\rpg\inventory.h
+	"Item.h"
+
+1430254380 d:\c++\projekt\rpg\item.h
+	<string>
+
+1430341336 d:\c++\projekt\rpg\przeciwnik.h
+	"Jednostka.h"
+
+1430254380 source:d:\c++\projekt\rpg\gracz.cpp
+	"Gracz.h"
+	<string>
+
+1430254380 source:d:\c++\projekt\rpg\inventory.cpp
+	"Inventory.h"
+	<iostream>
+
+1430254380 source:d:\c++\projekt\rpg\item.cpp
+	"Item.h"
+
+1430254380 source:d:\c++\projekt\rpg\jednostka.cpp
+
+1430262295 source:d:\c++\projekt\rpg\lokalizacja.cpp
+	"Lokalizacja.h"
+	<iostream>
+	<string>
+	<cstring>
+	<fstream>
+
+1430254380 source:d:\c++\projekt\rpg\przeciwnik.cpp
+	"Przeciwnik.h"
+	<string>
+
+1430255667 source:d:\c++\projekt\rpg\gra.cpp
+	"Gra.h"
+
+1430340635 d:\c++\projekt\rpg\gra.h
+	"Gracz.h"
+	"Przeciwnik.h"
+	"Item.h"
+	"world.h"
+
+1430262068 d:\c++\projekt\rpg\map.h
+	<string>
+
+1430255839 source:d:\c++\projekt\rpg\map.cpp
+	"Map.h"
+
+1430341383 d:\c++\projekt\rpg\world.h
+	"Lokalizacja.h"
+	"Item.h"
+	"Gracz.h"
+	"Przeciwnik.h"
+
+1430341382 source:d:\c++\projekt\rpg\world.cpp
+	"world.h"
+
+1430341768 source:/home/mikze/projects/Gra-master/Gra.cpp
+	"Gra.h"
+
+1430341768 /home/mikze/projects/Gra-master/Gra.h
+	"Gracz.h"
+	"Przeciwnik.h"
+	"Item.h"
+	"world.h"
+
+1430385576 /home/mikze/projects/Gra-master/Gracz.h
+	"Jednostka.h"
+	"Item.h"
+
+1430341768 /home/mikze/projects/Gra-master/Jednostka.h
+	"Lokalizacja.h"
+	"Inventory.h"
+	<string>
+
+1430384768 /home/mikze/projects/Gra-master/Lokalizacja.h
+	<string>
+	"Map.h"
+
+1430341768 /home/mikze/projects/Gra-master/Map.h
+	<string>
+
+1430341768 /home/mikze/projects/Gra-master/Inventory.h
+	"Item.h"
+
+1430341768 /home/mikze/projects/Gra-master/Item.h
+	<string>
+
+1430341768 /home/mikze/projects/Gra-master/Przeciwnik.h
+	"Jednostka.h"
+
+1430385820 /home/mikze/projects/Gra-master/world.h
+	<fstream>
+	<string>
+	"Lokalizacja.h"
+	"Item.h"
+	"Gracz.h"
+	"Przeciwnik.h"
+
+1430341768 source:/home/mikze/projects/Gra-master/Inventory.cpp
+	"Inventory.h"
+	<iostream>
+
+1430341768 source:/home/mikze/projects/Gra-master/Item.cpp
+	"Item.h"
+
+1430341768 source:/home/mikze/projects/Gra-master/Jednostka.cpp
+
+1430341768 source:/home/mikze/projects/Gra-master/Map.cpp
+	"Map.h"
+
+1430341768 source:/home/mikze/projects/Gra-master/Przeciwnik.cpp
+	"Przeciwnik.h"
+	<string>
+
