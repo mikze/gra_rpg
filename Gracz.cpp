@@ -73,6 +73,7 @@ int Gracz::get_y()
 
 void Gracz::add_inv(Item* item)
 {
+	item->grab();
 	inventory->add(item);
 }
 void Gracz::show_stats()

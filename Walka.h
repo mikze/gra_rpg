@@ -14,6 +14,8 @@ public:
 	~Walka();
 	void atak();
 private:
+	Gracz* gracz;
+	Przeciwnik* przeciwnik;
 	Lokalizacja *lokalizacja;
 	bool czyja_tura;
 	int ktora_tura;

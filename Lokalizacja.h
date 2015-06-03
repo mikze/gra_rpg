@@ -26,5 +26,7 @@ private:
 	std::string name;
 	sf::Sprite sprite;
 	Pole poleGry[10][10];
-	sf::Texture texture1,texture2,texture3,bron1_texture;
+	sf::Texture trawa_t,mur_t,woda_t;
+	sf::Texture gracz_t,troll_t,pies_t,lucznik_tucznik_t,mongolian_king_t;
+	sf::Texture bron1_t;
 };

@@ -31,10 +31,14 @@ Lokalizacja::Lokalizacja(std::string _name)
     mapa.close();
     delete [] cstr;
     
-    texture1.loadFromFile("spr/trawa.jpg");
-    texture2.loadFromFile("spr/mur.jpg");
-    texture3.loadFromFile("spr/gracz.jpg");
-    bron1_texture.loadFromFile("spr/miecz.jpg");
+    trawa_t.loadFromFile("spr/trawa.jpg");
+    mur_t.loadFromFile("spr/mur.jpg");
+    gracz_t.loadFromFile("spr/gracz.jpg");
+    bron1_t.loadFromFile("spr/miecz.jpg");
+    troll_t.loadFromFile("spr/troll.jpg");
+    pies_t.loadFromFile("spr/pies.jpg");
+    lucznik_tucznik_t.loadFromFile("spr/lucznik_tucznik.jpg");
+    mongolian_king_t.loadFromFile("spr/mongolian_king.jpg");
 
     int a=0,b=0;
 
@@ -47,7 +51,7 @@ Lokalizacja::Lokalizacja(std::string _name)
             poleGry[i][j].w=30; //wielkosc pola 30 pikseli
             poleGry[i][j].h=30;
 
-            poleGry[i][j].sprite.setTexture(texture1);
+            poleGry[i][j].sprite.setTexture(trawa_t);
 
             poleGry[i][j].sprite.setPosition(sf::Vector2f(a, b));
              a+=30;
@@ -91,19 +95,35 @@ void Lokalizacja::show_map(sf::RenderWindow & window,int _x,int _y)
             {
                 if(map[i][j]==0)
                 {
-                poleGry[i][j].sprite.setTexture(texture1);
+                poleGry[i][j].sprite.setTexture(trawa_t);
                 }
                 else if(map[i][j]==1)
                 {
-                poleGry[i][j].sprite.setTexture(texture2);
+                poleGry[i][j].sprite.setTexture(mur_t);
                 }
                 else if(map[i][j]==201)
                 {
-                poleGry[i][j].sprite.setTexture(bron1_texture);
+                poleGry[i][j].sprite.setTexture(bron1_t);
+                }
+                else if(map[i][j]==501)
+                {
+                poleGry[i][j].sprite.setTexture(troll_t);
+                }
+                else if(map[i][j]==502)
+                {
+                poleGry[i][j].sprite.setTexture(pies_t);
+                }
+                else if(map[i][j]==503)
+                {
+                poleGry[i][j].sprite.setTexture(mongolian_king_t);
+                }
+                else if(map[i][j]==504)
+                {
+                poleGry[i][j].sprite.setTexture(lucznik_tucznik_t);
                 }
                 if(j==_y && i==_x)
                 {
-                poleGry[i][j].sprite.setTexture(texture3);
+                poleGry[i][j].sprite.setTexture(gracz_t);
                 }
                 window.draw(poleGry[i][j].sprite);
             }  

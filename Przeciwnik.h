@@ -1,4 +1,5 @@
 #pragma once
+#include <SFML/Graphics.hpp>
 #include "Jednostka.h"
 
 class Przeciwnik : private Jednostka

@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 // Play it
 muzyka.play();
   //////////////////////////////////
-	sf::RenderWindow window(sf::VideoMode(300, 300), "RPG");
+	sf::RenderWindow window(sf::VideoMode(300, 300), "RPG game");
     world swiat;
   
     

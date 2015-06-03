@@ -82,6 +82,7 @@ world::world()
 		if(ile==201){
 		itemy[i]= new Item();
 	    itemy[i]->set_name("Miecz");
+	    //itemy[i]->set_texture(bron1_texture);
 	    itemy[i]->set_lokalizacja(lokalizacje[0]);
 	    i++;
 	   }
